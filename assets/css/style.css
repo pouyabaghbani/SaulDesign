@@ -1,0 +1,12 @@
+@import url(./onepage.css);
+@import url(./slide.css);
+@import url(./post.css);
+@import url(./form.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family: 'Poppins Medium';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Poppins Medium'), url(../font/Poppins-Medium.woff) format('woff');
+}

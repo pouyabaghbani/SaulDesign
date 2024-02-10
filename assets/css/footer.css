@@ -1,0 +1,101 @@
+.footer-site{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-parent{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-parent{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home{
+    color: #eeeeee;
+    display: flex;
+}
+
+.aboutme{
+    color: #eeeeee;
+    display: flex;
+}
+
+.phone{
+    color: #eeeeee;
+    display: flex;
+}
+
+.home-1{
+    margin-top: -5px;
+}
+
+.face{
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 100%;
+    background-color: #393E46;
+}
+
+.face:hover{
+    background-color: #4267B2;
+}
+
+.ins{
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 100%;
+    background-color: #393E46;
+}
+
+.ins:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.twe{
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 100%;
+    background-color: #393E46;
+}
+
+.twe:hover{
+    background-color: #1DA1F2;
+}
+
+.you{
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 100%;
+    background-color: #393E46;
+}
+
+.you:hover{
+    background-color: #FF0000;
+}

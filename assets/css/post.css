@@ -1,0 +1,131 @@
+.post{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/doodle\ items\ \(3\).png');
+    border-bottom: 1px solid rgb(95, 83, 83);
+}
+
+.main-div{
+    width: 1400px;
+    height: 490px;
+    position: absolute;
+    top: 198px;
+    left: 154px;
+}
+
+.my-resent{
+    font-size: 64px;
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+.work{
+    font-size: 64px;
+    font-weight: bold;
+    color: #00ADB5;
+}
+
+.button{
+    width: 450px;
+    height: 45px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-3{
+    background-color: #00ADB5;
+    color: #eeeeee;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    font-size: 18px;
+
+}
+.btn-4{
+    background-color: #393e46;
+    color: #eeeeee;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    font-size: 18px;
+ 
+}
+
+.btn-5{
+    background-color: #393e46;
+    color: #eeeeee;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    font-size: 18px;
+ 
+}
+
+.btn-6{
+    background-color: #393e46;
+    color: #eeeeee;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    font-size: 18px;
+ 
+}
+
+.gallery{
+    width: 1400px;
+    height: 320px;
+    margin-top: 130px;
+    position: relative;
+}
+
+.img-11{
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    box-shadow: 0 0 0 61px #393e4680;
+    border-radius: 10px;
+}
+
+.img-11:hover {
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+.img-12{
+    position: absolute;
+    left: 445px;
+    box-shadow: 0 0 0px 50px #393e4680;
+    border-radius: 10px;
+}
+
+.img-12:hover{
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+.img-13{
+    position: absolute;
+    top: 5px;
+    left: 973px;
+    box-shadow: 0 0 0 55px #393e4680;
+    border-radius: 10px;
+}
+
+.img-13:hover{
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}

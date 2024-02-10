@@ -1,0 +1,141 @@
+body{
+    background-color:#222831;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header-site {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #958383;
+    padding-bottom: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 70px;
+    color:#eeeeee;
+}
+
+.title:hover{
+    color: #00ADB5;
+    transition: 2s ;
+    transform: scale(1.5, 1.5);
+}
+
+.menu,.menu-link{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #eeeeee;
+    margin-top: 21px;
+    margin-right: 70px;
+}
+
+.menu-link:hover{
+   border-bottom: 2px solid #00ADB5;
+}
+
+.sec-img{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+.img-1{
+    position: absolute;
+    z-index: 1;
+}
+
+.img-2{
+    position: absolute;
+    z-index: 2;
+    top: 185px;
+    right: 350px;
+    filter: drop-shadow(0 20px 5px );
+}
+
+.container{
+    position: relative;
+}
+
+.txt-1{
+    color: #eeeeee;
+    font-size: 76px;
+    font-weight: bold;
+    padding-left: 310px;
+    margin-top: 150px;
+}
+
+.txt-2{
+    color: #00ADB5 ;
+    font-size: 76px;
+    font-weight: bold;
+    margin-top: -24px;
+    padding-left: 310px;
+}
+
+.btn-1{
+    background-color:  #00ADB5;
+    color: #eeeeee ;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 310px;
+}
+
+.btn-2{
+    background-color: #393E46;
+    color: #eeeeee;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.btn{
+    position: relative;
+    top: 55px;
+}
+
+.img-3 img{
+    position: absolute;
+    left: 227px;
+    top: 30px;
+}
+
+
+.btn-2 img {
+    width: 24px;
+    height: 24px;
+    margin: -3px;
+}
+
+.img-4{
+    margin-top: 330px;
+    margin-left: 580px;
+    background-color: #393E46;
+    width: 50px;
+    height: 50px;
+}
+.test{
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+.img-5{
+    margin-left: 150px;
+    margin-top: 131px;
+}
